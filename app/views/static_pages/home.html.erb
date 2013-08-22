@@ -1,7 +1,11 @@
-<% provide(:title, 'Home') %>
+<div class="center hero-unit">
 <h1>Home</h1>
-<p>
+<h2>
   Enchante de vous connaitre -
   <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
   A quelle heore tu vas a la Maison -?
-</p>
+</h2>
+<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("six.png", alt: "Rails"), 'http://rubyonrails.org/' %>
