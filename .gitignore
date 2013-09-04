@@ -19,7 +19,7 @@ doc/
 *.swp
 *~
 .project
-config/database.yml
+#config/database.yml
 .idea
 .secret
 foo
